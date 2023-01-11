@@ -24,7 +24,7 @@ int main(){
 	charStr[str.length()]='\0';
 	ord[str.length()]='\0';
 	
-	int unic[str.length()+1];
+	int* unic = new int[str.length()+1];
 	
 	for (int i = 0; i<str.length(); i++){
 		unic[i]=0;
